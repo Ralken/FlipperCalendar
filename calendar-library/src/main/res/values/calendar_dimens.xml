@@ -1,0 +1,10 @@
+<!-- Copyright 2012 Square, Inc. -->
+<resources>
+  <dimen name="calendar_day_headers_paddingbottom">4dp</dimen>
+  <dimen name="calendar_month_topmargin">0dp</dimen>
+  <dimen name="calendar_month_title_bottommargin">4dp</dimen>
+  <dimen name="calendar_text_big">24sp</dimen>
+  <dimen name="calendar_text_medium">24sp</dimen>
+  <dimen name="calendar_text_medium_half">12sp</dimen>
+  <dimen name="calendar_text_small">11sp</dimen>
+</resources>
