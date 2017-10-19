@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <cn.ralken.android.calendar.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:clipToPadding="false"
+        android:paddingBottom="3dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:divider="#000000"
+        android:dividerHeight="0.3px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:listSelector="@null"
+        android:persistentDrawingCache="all"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_below="@id/calendar_view"
+        />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:text="No events"
+        android:layout_below="@id/calendar_view" />
+
+</RelativeLayout>
