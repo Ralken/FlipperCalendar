@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cn.ralken.android.calendar.MonthView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- The week days and month date gridview -->
+    <cn.ralken.android.calendar.CalendarGridView
+        android:id="@+id/calendar_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.ralken.android.calendar.CalendarRowView
+            ayout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="@dimen/calendar_day_headers_paddingbottom" >
+        </cn.ralken.android.calendar.CalendarRowView>
+
+        <include layout="@layout/calendar_week_row" />
+        <include layout="@layout/calendar_week_row" />
+        <include layout="@layout/calendar_week_row" />
+        <include layout="@layout/calendar_week_row" />
+        <include layout="@layout/calendar_week_row" />
+        <include layout="@layout/calendar_week_row" />
+    </cn.ralken.android.calendar.CalendarGridView>
+</cn.ralken.android.calendar.MonthView>

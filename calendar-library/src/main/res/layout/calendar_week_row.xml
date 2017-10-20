@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cn.ralken.android.calendar.CalendarRowView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+   	<include layout="@layout/calendar_cell_view"/>
+</cn.ralken.android.calendar.CalendarRowView>
