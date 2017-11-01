@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- the previous/next description layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/calendar_month_topmargin"
+        android:background="@color/calendar_active_month_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:id="@+id/mPreviousMonth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/popover_arrow_left" />
+
+        <LinearLayout
+            android:id="@+id/mTitleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/CalendarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/mInfoBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/salesorder_info_button"
+                android:visibility="gone" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/mTmpTitleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/mTmpTitle"
+                style="@style/CalendarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/mTmpInfoBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/salesorder_info_button"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/mNextMonth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/popover_arrow_right" />
+    </RelativeLayout>
+
+    <cn.ralken.android.calendar.CalendarRowView
+        android:id="@+id/weekHeaderRow"
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+        android:layout_gravity="center_vertical" >
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/CalendarCell.DayHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </cn.ralken.android.calendar.CalendarRowView>
+
+    <cn.ralken.android.calendar.MonthFlipperView
+        android:id="@+id/flipper_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
