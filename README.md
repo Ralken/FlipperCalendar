@@ -1,5 +1,5 @@
 # FlipperCalendar
-![Sample](./f_calendar_screenshot.jpg)
+![Sample](./sample_screenshot.jpg)
 
 ### Include it in your gradle:
 
