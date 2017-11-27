@@ -1,15 +1,3 @@
-package cn.ralken.android.calendar;
-
-import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.util.AttributeSet;
-import android.view.View;
-import android.view.ViewGroup;
-
-import static android.view.View.MeasureSpec.AT_MOST;
-import static android.view.View.MeasureSpec.EXACTLY;
-import static android.view.View.MeasureSpec.makeMeasureSpec;
 /** Copyright Ralken Liao
 
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,6 +12,18 @@ import static android.view.View.MeasureSpec.makeMeasureSpec;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package cn.ralken.android.calendar;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewGroup;
+
+import static android.view.View.MeasureSpec.AT_MOST;
+import static android.view.View.MeasureSpec.EXACTLY;
+import static android.view.View.MeasureSpec.makeMeasureSpec;
 
 /**
  * ViewGroup that draws a grid of calendar cells.  All children must be {@link CalendarRowView}s.
