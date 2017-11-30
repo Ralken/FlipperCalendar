@@ -1,4 +1,3 @@
-package cn.ralken.android.calendar;
 /** Copyright Ralken Liao
 
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,6 +15,9 @@ package cn.ralken.android.calendar;
  * @author Ralken Liao
  * @date
  */
+
+package cn.ralken.android.calendar;
+
 /**
  * @author Ralken Liao
  * @version create time：Nov 30, 2012 4:39:32 PM
