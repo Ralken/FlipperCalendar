@@ -15,6 +15,14 @@
 	}
 ```
 
+**Step 2.** Add library dependency in your gradle:
+
+```groovy
+	dependencies {
+	    compile 'com.github.Ralken:FlipperCalendar:b641bfa88a'
+	}
+```
+
 ### Reference denpendency
 This extended library is built based on earlier **[android-times-square](https://github.com/square/android-times-square)** library of eclipse-version, most code has been deeply modified and new features have been added in this library.
 
