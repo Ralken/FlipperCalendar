@@ -3,7 +3,17 @@
 
 ### Include it in your gradle:
 
-### Usage
+## Usage
+**Step 1.** Add the JitPack repository to your build file: 
+
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
 
 ### Reference denpendency
 This extended library is built based on earlier **[android-times-square](https://github.com/square/android-times-square)** library of eclipse-version, most code has been deeply modified and new features have been added in this library.
