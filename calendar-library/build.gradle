@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.Ralken.Calendar'
 
 android {
     compileSdkVersion 26
