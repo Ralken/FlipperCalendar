@@ -45,7 +45,7 @@
                 android:layout_height="25dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/salesorder_info_button"
+                android:background="@drawable/icon_info"
                 android:visibility="gone" />
         </LinearLayout>
         
@@ -67,7 +67,7 @@
                 android:layout_height="25dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/salesorder_info_button"
+                android:background="@drawable/icon_info"
                 android:visibility="gone" />
         </LinearLayout>
 
