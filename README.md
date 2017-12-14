@@ -19,7 +19,7 @@
 
 ```groovy
 	dependencies {
-	    compile 'com.github.Ralken:FlipperCalendar:b641bfa88a'
+	    compile 'com.github.Ralken:FlipperCalendar:1.0.0'
 	}
 ```
 
